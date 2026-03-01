@@ -1,0 +1,25 @@
+<article class="card">
+	<header class="card-header">
+		<h2>{{ personaje.name }}</h2>
+	</header>
+
+	<div class="card-body">
+		<p><strong>Ki: </strong>{{ personaje.ki }}</p>
+		<p><strong>Raza: </strong>{{ personaje.race }}</p>
+		<p><strong>Descripción: </strong>{{ personaje.description }}</p>
+		<p><strong>Equipo: </strong>{{ personaje.affiliation }}</p>
+		<div class="img-personaje">
+			<img [src]="personaje.image" alt="">
+		</div>
+
+		<!-- <div class="transformacion">
+			<h3>Transformaciones</h3>
+			<div class="transformaciones">
+				<p>{{ personaje.transformacion.nombre }}</p>
+				<div class="img-tranformacion">
+					<img [src]="personaje.transformacion.imagen" alt="">
+				</div>
+			</div>
+		</div> -->
+	</div>
+</article>
