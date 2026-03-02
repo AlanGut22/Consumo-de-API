@@ -2,7 +2,7 @@ export interface Personaje {
 	name: string,
 	ki: string,
 	race: string,
-	description: string
+	maxKi: string
 	image: string,
 	affiliation: string,
 }

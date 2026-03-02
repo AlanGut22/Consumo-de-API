@@ -29,7 +29,7 @@ export class AppComponent implements OnInit, OnDestroy {
               name: personaje.name,
               ki: personaje.ki,
               race: personaje.race,
-              description: personaje.description,
+              maxKi: personaje.maxKi,
               image: personaje.image,
               affiliation: personaje.affiliation,
             };
